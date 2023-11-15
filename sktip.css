@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+
+
+.content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.input{
+    padding: 8px 10px;
+    width: 350px;
+    outline: none;
+}
+
+.add{
+    padding: 8px 15px;
+    background-color: rgba(151, 71, 226, 0.845);
+    border-radius: 15%;
+}
+
+.list{
+    list-style: none;
+}
+
+.list_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: rgba(31, 31, 190, 0.649);
+    padding: 10px 15px ;
+}
+
+.list_item i {
+    color: rgba(211, 47, 47, 0.8);
+}
